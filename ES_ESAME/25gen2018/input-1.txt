@@ -9,6 +9,6 @@
 +	A Breath of Snow and Ashes	Diana Gabaldon	Delacorte	10/16/2005	Fiction
 +	A Common Life	Jan Karon	Viking	4/29/2001	Fiction
 ?	6/6/2010
--	1/1/1999 5/19/2005
+-	1/1/1999	5/19/2005
 f
 

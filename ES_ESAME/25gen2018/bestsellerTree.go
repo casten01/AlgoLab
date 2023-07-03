@@ -168,6 +168,25 @@ func bist_searchITER(r *node, data string) {
 
 // Cerca e stampa titoli e autori dei bestseller compresi tra due date
 func bist_range(r *node, data1 string, data2 string) {
+	fmt.Println("{")
+	res := cmp(data1, r.libro.data)
+	res2 := cmp(data2, r.libro.data)
+	var supp *node = r
+	for supp != nil {
+		res = cmp(data1, supp.libro.data)
+		res2 = cmp(data2, supp.libro.data)
+		if !res && res2 {
+			fmt.Printf(" %s - %s - %s \n", supp.libro.data, supp.libro.titolo, supp.libro.autore)
+		}
+
+		if res || res2 {
+			supp = supp.dx
+		} else {
+			supp = supp.sx
+		}
+
+	}
+	fmt.Println("}")
 
 }
 

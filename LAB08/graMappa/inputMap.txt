@@ -1,0 +1,8 @@
+Alberto 20 Tennis,Pallavolo,Tamburo
+Tom 21 Atletica,Videogames,Carte 
+Gabriele 22 Divano,Canne,Gafi 
+Viola 21 Pedicure,Colorare,Trigger 
+Chiara 22 Scout,Cazzo,Culo
+Giovanni 22 Seghe,Palestra,Gallette
+Massimiliano 21 Rainbow,CazzoInCulo,Canne 
+
